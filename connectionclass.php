@@ -72,7 +72,7 @@ Class Connectionclass
 				if($result)
 				{
 					$row=mysqli_fetch_row($result);
-					return $row[0];
+					return $row!=NULL?$row[0]:'';
 				}
 				else
 					throw new Exception(mysqli_error($this->bd));

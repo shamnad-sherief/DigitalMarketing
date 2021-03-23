@@ -56,7 +56,7 @@ $exe=$obj->GetTable($qry);
             
             <td>
                <a href="edit_staff.php?id=<?php echo $value['emp_id']; ?>" class="btn btn-success btn-sm">Edit</a>
-              <a onclick="return confirm('Are you sure?');" href="codes/staff_exe.php?action=remove&id=<?php  echo $value['emp_id']; ?>" class="btn btn-danger btn-sm">Delete</a>
+       <!--       <a onclick="return confirm('Are you sure?');" href="codes/staff_exe.php?action=remove&id=<?php  echo $value['emp_id']; ?>"  class="btn btn-danger btn-sm">Delete</a> -->
               
               
             </td>

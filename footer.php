@@ -3,7 +3,7 @@
         <div class="container footer-top">
             <div class="row">
                 <!-- widget -->
-                <div class="col-sm-6 col-lg-3 footer-widget">
+                <div class="col-sm-6 col-lg-6 footer-widget">
                     <div class="about-widget">
                         <img src="img/logo1.png" alt="">
                         <p>Your Complete business partner for your digital era.</p>
@@ -16,42 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- widget -->
-                <div class="col-sm-6 col-lg-3 footer-widget">
-                    <h6 class="fw-title">USEFUL LINK</h6>
-                    <div class="dobule-link">
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Events</a></li>
-                            <li><a href="">Features</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="">Policy</a></li>
-                            <li><a href="">Term</a></li>
-                            <li><a href="">Help</a></li>
-                            <li><a href="">FAQs</a></li>
-                            <li><a href="">Site map</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- widget -->
-                <div class="col-sm-6 col-lg-3 footer-widget">
-                    <h6 class="fw-title">RECENT POST</h6>
-                    <ul class="recent-post">
-                        <li>
-                            <p>Snackable study:How to break <br> up your master's degree</p>
-                            <span><i class="fa fa-clock-o"></i>24 Mar 2018</span>
-                        </li>
-                        <li>
-                            <p>Open University plans major <br> cuts to number of staff</p>
-                            <span><i class="fa fa-clock-o"></i>24 Mar 2018</span>
-                        </li>
-                    </ul>
-                </div>
-                <!-- widget -->
-                <div class="col-sm-6 col-lg-3 footer-widget">
+                  <div class="col-sm-6 col-lg-6 footer-widget text-right">
                     <h6 class="fw-title">CONTACT</h6>
                     <ul class="contact">
                         <li><p><i class="fa fa-map-marker"></i> 40 Baria Street 133/2, NewYork City,US</p></li>

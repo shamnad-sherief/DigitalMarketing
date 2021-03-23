@@ -9,7 +9,7 @@ $qry="select * from cutomer ";
   $obj=new connectionclass() ; 
 $data=$obj->GetTable($qry);
  ?>
-  <a class="btn btn-primary" href="cutomer_ADD.php">create new   </a> 
+ <!-- <a class="btn btn-primary" href="cutomer_ADD.php">create new   </a>-->
   <table class="table table-bordered" >
  <tr> 
    <th>FULL_NAME</th>  

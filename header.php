@@ -56,10 +56,7 @@
     <!-- Header section  -->
     <nav class="nav-section">
         <div class="container">
-            <div class="nav-right">
-                <a href=""><i class="fa fa-search"></i></a>
-                <a href=""><i class="fa fa-shopping-cart"></i></a>
-            </div>
+            
             <ul class="main-menu">
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="#about">About Us</a></li>
