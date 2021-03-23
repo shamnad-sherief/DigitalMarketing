@@ -7,5 +7,5 @@ $amount=$_POST['amount'] ;
 $no_days=$_POST['no_days'] ; 
 $qry="insert into packages(title,description,amount,no_days)values('$title','$description','$amount','$no_days')"; 
  $data=$obj->Manipulation($qry); 
-var_dump($data);header("location:packages_SHOW.php");
+var_dump($data);header("location:packages_Show.php");
 ?>

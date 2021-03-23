@@ -35,7 +35,7 @@ if(!isset($_SESSION['email']))
 {
 header("location:../index.php");
 }
-require_once('../ConnectionClass.php');
+require_once('../connectionclass.php');
 $obj=new Connectionclass();
 $email=$_SESSION['email'];
 ?>
@@ -98,118 +98,7 @@ $email=$_SESSION['email'];
                 </li>
  
 
-                 <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-book"></i>
-                        <span>Employees</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="add_staff.php">Add New</a></li>
-                        <li><a href="view_staff.php">View List</a></li>
-                        
-                    </ul>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-book"></i>
-                        <span>Graphs</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="menu1.php">Submenu1</a></li>
-                        <li><a href="menu2.php">Submenu2</a></li>
-                        
-                    </ul>
-                </li>
-
                 
-                <li class="sub-menu">
-                    <a href="add_department.php">
-                        <i class="fa fa-bars"></i>
-                        <span>Monthly Ads Hit</span>
-                    </a>
-                </li>
-
-                 <li class="sub-menu">
-                    <a href="add_department.php">
-                        <i class="fa fa-bars"></i>
-                        <span>Employee Ads Hit</span>
-                    </a>
-                </li>
-
-
-                  <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Progress Ads</span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="javascript:;">
-                        <i class="fa fa-book"></i>
-                        <span>Digital Marketing</span>
-                    </a>
-                    <ul class="sub">
-                        <li><a href="menu1.php">Submenu1</a></li>
-                        <li><a href="menu2.php">Submenu2</a></li>
-                        
-                    </ul>
-                </li>
-
-                 <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Manage Marketing Area </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Create Team </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Show Ads </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Admission Details </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Course Details </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="add_mainarea.php">
-                        <i class="fa fa-tasks"></i>
-                        <span>Telephonic Enquiry </span>
-                    </a>
-                </li>
-
-                <li class="sub-menu">
-                    <a href="fontawesome.html">
-                        <i class="fa fa-user"></i>
-                        <span>Settings</span>
-                    </a>
-					<ul class="sub">
-						<li><a href="changepassword.php">Change Password</a></li>
-						<li><a href="../logout.php">Logout</a></li>
-                      <!--  <li><a href="grids.html">Grids</a></li>-->
-                    </ul>
-                </li>
                 
               
             </ul>            </div>

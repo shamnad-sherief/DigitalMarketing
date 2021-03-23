@@ -35,7 +35,7 @@ if(!isset($_SESSION['email']))
 {
 header("location:../index.php");
 }
-require_once('../ConnectionClass.php');
+require_once('../connectionclass.php');
 $obj=new Connectionclass();
 $email=$_SESSION['email'];
 ?>
@@ -104,7 +104,7 @@ $email=$_SESSION['email'];
                         <span>Employees</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="add_staff.php">Add New</a></li>
+                        
                         <li><a href="view_staff.php">View List</a></li>
                         
                     </ul>

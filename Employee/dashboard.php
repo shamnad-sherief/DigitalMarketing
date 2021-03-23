@@ -39,6 +39,7 @@ $data=$obj->GetTable($qry);
 	   $link = $row['web_address']."?q=". $row['code_no'];  
 	 ?>
 	 <input type="text" value="<?php echo $link  ?>"  />
+	 <a href="adv_chart.php?req_id=<?php  echo $row['adv_req_id']; ?>" class="htn btn-primary pull-right" >Show Hits</a>
   </div>
   </div>
   

@@ -3,7 +3,7 @@ session_start();
 $email_id=$_SESSION['email_id'];
 $random=$_SESSION['random'];
 $code=$_POST['code'];
-require_once("../ConnectionClass.php");
+require_once("../connectionclass.php");
 if($random==$code)
 {
 	header("location:../login/resetpassword.php");

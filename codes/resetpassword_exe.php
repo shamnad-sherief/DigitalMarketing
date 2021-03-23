@@ -3,7 +3,7 @@ session_start();
 	$email=$_SESSION['email_id'];
 
 //echo $email;
-require_once("../ConnectionClass.php");
+require_once("../connectionclass.php");
 	//$current_password=$_POST['current_password'];
 	$new_password=$_POST['pass'];
 	$con=$_POST['cpass'];
