@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("../../ConnectionClass.php");
+require_once("../../connectionclass.php");
 $obj=new Connectionclass();
 $email=$_SESSION['email']; 
  $currentpassword=$_POST["cpswd"];

@@ -4,13 +4,13 @@ require_once("../connectionclass.php");
 $email_id=$_POST['username'];
 //echo $email_id;
 $obj=new connectionclass();
-$qry="select count(*) from login where username='$email_id' and status='approve'";
+$qry="select count(*) from login where username='$email_id'";
 //echo $qry;
 $count=$obj->GetSingleData($qry);
 //var_dump($count);
 if($count==0)
 {
-	echo $obj->alert("Email ID doesnot exist","../login/forgotpassword.php");
+	echo $obj->alert("Email ID doesnt exist","../login/forgotpassword.php");
 }
 else
 {

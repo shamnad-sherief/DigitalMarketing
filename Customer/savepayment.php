@@ -28,8 +28,10 @@ else if($amount>$resultcount){
 {
 	$sql="insert into advertisement_request(email_id,package_id,date)values('$email_id','$package_id','$date')"; 
 	$exe=$obj->Manipulation($sql);
+	$q="update bank set amount=amount-$amount where card_no='$cardno' and cvv='$cvv' and expiry='$expiry'";
+	$exe1=$obj->Manipulation($q);
 	//var_dump($exe);
-	if($exe['status']=='true')
+	if($exe['status']=='true' && $exe1['status']=='true')
 	{
 		 
 		 
